@@ -1,0 +1,40 @@
+22:57:01 **** Incremental Build of configuration Debug for project ÅÅÐò ****
+Info: Internal Builder is used for build
+gcc -std=c99 "-IH:\\workspaceC++\\ÅÅÐò\\src" "-IH:\\workspaceC++\\ÅÅÐò" "-includeH:\\workspaceC++\\ÅÅÐò\\src\\swapSeries.h" "-includeH:\\workspaceC++\\ÅÅÐò\\src\\dcSeries.h" "-includeH:\\workspaceC++\\ÅÅÐò\\src\\insertSeries.h" "-includeH:\\workspaceC++\\ÅÅÐò\\src\\selectSeries.h" "-includeH:\\workspaceC++\\ÅÅÐò\\src\\basis.h" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+In file included from H:\workspaceC++\ÅÅÐò\src\swapSeries.h:10:0,
+                 from <command-line>:0:
+H:\workspaceC++\ÅÅÐò\src/basis.h: In function 'print':
+H:\workspaceC++\ÅÅÐò\src/basis.h:21:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("%c,", a[i]);
+   ^
+H:\workspaceC++\ÅÅÐò\src/basis.h:21:3: warning: incompatible implicit declaration of built-in function 'printf' [enabled by default]
+H:\workspaceC++\ÅÅÐò\src/basis.h:23:2: warning: incompatible implicit declaration of built-in function 'printf' [enabled by default]
+  printf("\n");
+  ^
+In file included from <command-line>:1:0:
+H:\workspaceC++\ÅÅÐò\src\dcSeries.h: In function 'mergeSort':
+H:\workspaceC++\ÅÅÐò\src\dcSeries.h:24:3: warning: implicit declaration of function 'merge' [-Wimplicit-function-declaration]
+   merge(a,start,mid,end);
+   ^
+H:\workspaceC++\ÅÅÐò\src\dcSeries.h: At top level:
+H:\workspaceC++\ÅÅÐò\src\dcSeries.h:28:6: warning: conflicting types for 'merge' [enabled by default]
+ void merge(char a[], int start, int mid, int end) {
+      ^
+H:\workspaceC++\ÅÅÐò\src\dcSeries.h:24:3: note: previous implicit declaration of 'merge' was here
+   merge(a,start,mid,end);
+   ^
+H:\workspaceC++\ÅÅÐò\src\dcSeries.h: In function 'merge':
+H:\workspaceC++\ÅÅÐò\src\dcSeries.h:31:2: warning: implicit declaration of function 'strcpym' [-Wimplicit-function-declaration]
+  strcpym(s1,a,start,mid);
+  ^
+H:\workspaceC++\ÅÅÐò\src\dcSeries.h: At top level:
+H:\workspaceC++\ÅÅÐò\src\dcSeries.h:64:6: warning: conflicting types for 'strcpym' [enabled by default]
+ void strcpym(char s[],char a[],int start,int end){
+      ^
+H:\workspaceC++\ÅÅÐò\src\dcSeries.h:31:2: note: previous implicit declaration of 'strcpym' was here
+  strcpym(s1,a,start,mid);
+  ^
+gcc -o ÅÅÐò.exe "src\\main.o" 
+
+22:57:02 Build Finished (took 1s.548ms)
+

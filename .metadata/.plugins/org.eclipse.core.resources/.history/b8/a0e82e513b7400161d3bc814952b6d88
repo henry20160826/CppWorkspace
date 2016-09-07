@@ -1,0 +1,34 @@
+//============================================================================
+// Name        : 组合数学特殊培养计划1.cpp
+// Author      : dh
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+//解决重集的排列，组合问题，利用容斥原理
+//关键：利用容斥原理
+#include <iostream>
+using namespace std;
+
+class RepeatSet
+{
+	//重集
+public:
+	RepeatSet(int *aw, int *kw, int lenw)
+	{
+		len = lenw;
+		a = aw;
+		k = kw;
+	}
+private:
+	int len; //集合中不同元素种数
+	int *a; //不同的元素
+	int *k; //相同元素的个数
+};
+
+int main()
+{
+	cout << "Hello World" << endl; // prints Hello World
+	return 0;
+}

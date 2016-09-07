@@ -1,0 +1,9 @@
+20:14:39 **** Build of configuration Build (GNU) for project hello world ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[D:/Program Files/Java/jre1.8.0_60/bin/server;D:/Program Files/Java/jre1.8.0_60/bin;D:/Program Files/Java/jre1.8.0_60/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\MinGW\bin;D:\Program Files\eclipse;]
+
+20:14:39 Build Finished (took 32ms)
+

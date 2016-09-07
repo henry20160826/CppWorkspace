@@ -1,0 +1,44 @@
+23:46:42 **** Incremental Build of configuration Debug for project Ωªªª-√∞≈›≈≈–Ú ****
+Info: Internal Builder is used for build
+gcc -std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ωªªª-√∞≈›≈≈–Ú.o" "..\\src\\Ωªªª-√∞≈›≈≈–Ú.c" 
+..\src\Ωªªª-√∞≈›≈≈–Ú.c: In function 'main':
+..\src\Ωªªª-√∞≈›≈≈–Ú.c:17:2: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  int len = strlen(a) - 1;
+  ^
+..\src\Ωªªª-√∞≈›≈≈–Ú.c:17:12: warning: incompatible implicit declaration of built-in function 'strlen' [enabled by default]
+  int len = strlen(a) - 1;
+            ^
+..\src\Ωªªª-√∞≈›≈≈–Ú.c:18:2: warning: implicit declaration of function 'popSort' [-Wimplicit-function-declaration]
+  popSort(a, len);
+  ^
+..\src\Ωªªª-√∞≈›≈≈–Ú.c:19:2: warning: implicit declaration of function 'print' [-Wimplicit-function-declaration]
+  print(a, len);
+  ^
+..\src\Ωªªª-√∞≈›≈≈–Ú.c: At top level:
+..\src\Ωªªª-√∞≈›≈≈–Ú.c:22:6: warning: conflicting types for 'popSort' [enabled by default]
+ void popSort(char a[], int n) {
+      ^
+..\src\Ωªªª-√∞≈›≈≈–Ú.c:18:2: note: previous implicit declaration of 'popSort' was here
+  popSort(a, len);
+  ^
+..\src\Ωªªª-√∞≈›≈≈–Ú.c: In function 'popSort':
+..\src\Ωªªª-√∞≈›≈≈–Ú.c:26:5: warning: implicit declaration of function 'swap' [-Wimplicit-function-declaration]
+     swap(&a[j], &a[j + 1]);
+     ^
+..\src\Ωªªª-√∞≈›≈≈–Ú.c: At top level:
+..\src\Ωªªª-√∞≈›≈≈–Ú.c:31:6: warning: conflicting types for 'swap' [enabled by default]
+ void swap(char *a, char *b) {
+      ^
+..\src\Ωªªª-√∞≈›≈≈–Ú.c:26:5: note: previous implicit declaration of 'swap' was here
+     swap(&a[j], &a[j + 1]);
+     ^
+..\src\Ωªªª-√∞≈›≈≈–Ú.c:36:6: warning: conflicting types for 'print' [enabled by default]
+ void print(char a[], int n) {
+      ^
+..\src\Ωªªª-√∞≈›≈≈–Ú.c:19:2: note: previous implicit declaration of 'print' was here
+  print(a, len);
+  ^
+gcc -o Ωªªª-√∞≈›≈≈–Ú.exe "src\\Ωªªª-√∞≈›≈≈–Ú.o" 
+
+23:46:42 Build Finished (took 601ms)
+

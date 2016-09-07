@@ -1,0 +1,5 @@
+17:23:07 **** Clean-only build of configuration Debug for project 网易有道2017内推编程1 ****
+rm -rf 网易有道2017内推编程1.exe src/网易有道2017内推编程1.d src/网易有道2017内推编程1.o 
+
+17:23:08 Build Finished (took 383ms)
+

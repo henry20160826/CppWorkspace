@@ -1,0 +1,12 @@
+14:01:54 **** Rebuild of configuration Debug for project 最短路径 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\最短路径.o" "..\\src\\最短路径.c" 
+Cannot run program "gcc": Launching failed
+
+Error: Program "gcc" not found in PATH
+PATH=[\bin;\bin;D:/Program Files/Java/jdk1.8.0_60/jre/bin/server;D:/Program Files/Java/jdk1.8.0_60/jre/bin;D:/Program Files/Java/jdk1.8.0_60/jre/lib/amd64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Users\Administrator.SC-201608042005\AppData\Local\Microsoft\WindowsApps;D:\Program Files\Java\jdk1.8.0_60\jre\bin;D:\Program Files\Java\jdk1.8.0_60;C:\Users\Administrator.SC-201608042005\AppData\Local\Microsoft\WindowsApps;;D:\Program Files\eclipse]
+
+
+14:01:54 Build Finished (took 62ms)
+

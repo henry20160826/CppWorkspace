@@ -1,0 +1,41 @@
+23:38:35 **** Incremental Build of configuration Debug for project —°‘Ò-—°‘Ò≈≈–Ú ****
+Info: Internal Builder is used for build
+gcc -std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\—°‘Ò-—°‘Ò≈≈–Ú.o" "..\\src\\—°‘Ò-—°‘Ò≈≈–Ú.c" 
+..\src\—°‘Ò-—°‘Ò≈≈–Ú.c: In function 'main':
+..\src\—°‘Ò-—°‘Ò≈≈–Ú.c:17:2: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  int len = strlen(a) - 1;
+  ^
+..\src\—°‘Ò-—°‘Ò≈≈–Ú.c:17:12: warning: incompatible implicit declaration of built-in function 'strlen' [enabled by default]
+  int len = strlen(a) - 1;
+            ^
+..\src\—°‘Ò-—°‘Ò≈≈–Ú.c:18:2: warning: implicit declaration of function 'selectSort' [-Wimplicit-function-declaration]
+  selectSort(a,len);
+  ^
+..\src\—°‘Ò-—°‘Ò≈≈–Ú.c:19:2: warning: implicit declaration of function 'print' [-Wimplicit-function-declaration]
+  print(a,len);
+  ^
+..\src\—°‘Ò-—°‘Ò≈≈–Ú.c: At top level:
+..\src\—°‘Ò-—°‘Ò≈≈–Ú.c:27:6: warning: conflicting types for 'selectSort' [enabled by default]
+ void selectSort(char a[], int n) {
+      ^
+..\src\—°‘Ò-—°‘Ò≈≈–Ú.c:18:2: note: previous implicit declaration of 'selectSort' was here
+  selectSort(a,len);
+  ^
+..\src\—°‘Ò-—°‘Ò≈≈–Ú.c: In function 'selectSort':
+..\src\—°‘Ò-—°‘Ò≈≈–Ú.c:32:4: warning: array subscript has type 'char' [-Wchar-subscripts]
+    if(a[j]<a[min]){
+    ^
+..\src\—°‘Ò-—°‘Ò≈≈–Ú.c:37:4: warning: array subscript has type 'char' [-Wchar-subscripts]
+    swap(&a[i],&a[min]);
+    ^
+..\src\—°‘Ò-—°‘Ò≈≈–Ú.c: At top level:
+..\src\—°‘Ò-—°‘Ò≈≈–Ú.c:41:6: warning: conflicting types for 'print' [enabled by default]
+ void print(char a[], int n) {
+      ^
+..\src\—°‘Ò-—°‘Ò≈≈–Ú.c:19:2: note: previous implicit declaration of 'print' was here
+  print(a,len);
+  ^
+gcc -o —°‘Ò-—°‘Ò≈≈–Ú.exe "src\\—°‘Ò-—°‘Ò≈≈–Ú.o" 
+
+23:38:36 Build Finished (took 638ms)
+

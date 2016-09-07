@@ -1,0 +1,14 @@
+22:05:33 **** Incremental Build of configuration Debug for project 网易机试 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\网易机试.o" "..\\src\\网易机试.cpp" 
+..\src\网易机试.cpp: In function 'int main()':
+..\src\网易机试.cpp:284:21: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int *pa = new int[n]
+                     ^
+..\src\网易机试.cpp:285:18: warning: non-constant array size in new, unable to verify length of initializer-list [enabled by default]
+  { 4, 0, 0, 2, 0 };
+                  ^
+g++ -o 网易机试.exe "src\\网易机试.o" 
+
+22:05:34 Build Finished (took 625ms)
+

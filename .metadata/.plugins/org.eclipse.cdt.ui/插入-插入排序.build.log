@@ -1,0 +1,33 @@
+16:51:47 **** Incremental Build of configuration Debug for project ≤Â»Î-≤Â»Î≈≈–Ú ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -std=c99 -o "src\\≤Â»Î-≤Â»Î≈≈–Ú.o" "..\\src\\≤Â»Î-≤Â»Î≈≈–Ú.c" 
+..\src\≤Â»Î-≤Â»Î≈≈–Ú.c: In function 'main':
+..\src\≤Â»Î-≤Â»Î≈≈–Ú.c:18:2: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  int len = strlen(a) - 1;
+  ^
+..\src\≤Â»Î-≤Â»Î≈≈–Ú.c:18:12: warning: incompatible implicit declaration of built-in function 'strlen' [enabled by default]
+  int len = strlen(a) - 1;
+            ^
+..\src\≤Â»Î-≤Â»Î≈≈–Ú.c:20:2: warning: implicit declaration of function 'print' [-Wimplicit-function-declaration]
+  print(a, len);
+  ^
+..\src\≤Â»Î-≤Â»Î≈≈–Ú.c:21:2: warning: implicit declaration of function 'insertSort' [-Wimplicit-function-declaration]
+  insertSort(a, len);
+  ^
+..\src\≤Â»Î-≤Â»Î≈≈–Ú.c: At top level:
+..\src\≤Â»Î-≤Â»Î≈≈–Ú.c:26:6: warning: conflicting types for 'insertSort' [enabled by default]
+ void insertSort(char a[], int n) {
+      ^
+..\src\≤Â»Î-≤Â»Î≈≈–Ú.c:21:2: note: previous implicit declaration of 'insertSort' was here
+  insertSort(a, len);
+  ^
+..\src\≤Â»Î-≤Â»Î≈≈–Ú.c:40:6: warning: conflicting types for 'print' [enabled by default]
+ void print(char a[], int n) {
+      ^
+..\src\≤Â»Î-≤Â»Î≈≈–Ú.c:20:2: note: previous implicit declaration of 'print' was here
+  print(a, len);
+  ^
+gcc -o ≤Â»Î-≤Â»Î≈≈–Ú.exe "src\\≤Â»Î-≤Â»Î≈≈–Ú.o" 
+
+16:51:47 Build Finished (took 639ms)
+

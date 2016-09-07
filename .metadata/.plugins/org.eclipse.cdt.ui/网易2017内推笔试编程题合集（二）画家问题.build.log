@@ -1,0 +1,10 @@
+22:18:28 **** Incremental Build of configuration Debug for project 网易2017内推笔试编程题合集（二）画家问题 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\网易2017内推笔试编程题合集（二）画家问题.o" "..\\src\\网易2017内推笔试编程题合集（二）画家问题.cpp" 
+..\src\网易2017内推笔试编程题合集（二）画家问题.cpp:93:15: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int bitLen = 32; //或64位
+               ^
+g++ -o 网易2017内推笔试编程题合集（二）画家问题.exe "src\\网易2017内推笔试编程题合集（二）画家问题.o" 
+
+22:18:28 Build Finished (took 568ms)
+

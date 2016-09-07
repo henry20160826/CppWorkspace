@@ -1,0 +1,63 @@
+//============================================================================
+// Name        : ÁõÏÍ½¿¾©¶«»úÊÔ1.cpp
+// Author      : dh
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <string>
+#include <algorithm>
+using namespace std;
+
+int* getKinds(string s[], int len)
+{
+	int i, j;
+	int *kinds = new int[len]();
+	for (i = 1; i < len; i++)
+	{
+		for (j = 0; j < i; j++)
+		{
+			if (s[i] == s[j])
+			{
+				break;
+			}
+		}
+		if (i == j)
+		{
+			kinds[i]++;
+		}
+		else
+		{
+			kinds[j]++;
+		}
+	}
+	return kinds;
+}
+
+int main()
+{
+//	cout << "Hello World" << endl; // prints Hello World
+	int label;
+	int buys;
+
+	cin >> label >> buys;
+
+	int *price = new int[buys];
+	for (int i = 0; i < buys; i++)
+	{
+		cout >> price[i];
+	}
+
+	string *list = new string[buys];
+	for (int i = 0; i < buys; i++)
+	{
+		cout >> list[i];
+	}
+
+	sort(price, price + buys);
+	int min, max;
+
+	return 0;
+}

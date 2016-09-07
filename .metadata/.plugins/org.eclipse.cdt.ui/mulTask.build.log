@@ -1,0 +1,20 @@
+15:41:16 **** Incremental Build of configuration Debug for project mulTask ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\mulTask.o" "..\\src\\mulTask.cpp" 
+..\src\mulTask.cpp: In function 'int main()':
+..\src\mulTask.cpp:54:56: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'DWORD {aka long unsigned int}' [-Wformat=]
+  printf("initial thread 1 exit code = %u\n", dwExitCode);
+                                                        ^
+..\src\mulTask.cpp:73:56: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'DWORD {aka long unsigned int}' [-Wformat=]
+  printf("initial thread 2 exit code = %u\n", dwExitCode);
+                                                        ^
+..\src\mulTask.cpp:84:53: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'DWORD {aka long unsigned int}' [-Wformat=]
+  printf("thread 1 exited with code %u\n", dwExitCode);
+                                                     ^
+..\src\mulTask.cpp:87:53: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'DWORD {aka long unsigned int}' [-Wformat=]
+  printf("thread 2 exited with code %u\n", dwExitCode);
+                                                     ^
+g++ -o mulTask.exe "src\\mulTask.o" 
+
+15:41:20 Build Finished (took 3s.560ms)
+

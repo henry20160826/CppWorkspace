@@ -1,0 +1,33 @@
+17:20:48 **** Incremental Build of configuration Debug for project ²åÈë-Ï£¶ûÅÅĞò ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -std=c99 -o "src\\²åÈë-Ï£¶ûÅÅĞò.o" "..\\src\\²åÈë-Ï£¶ûÅÅĞò.c" 
+..\src\²åÈë-Ï£¶ûÅÅĞò.c: In function 'main':
+..\src\²åÈë-Ï£¶ûÅÅĞò.c:17:2: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  int len = strlen(a) - 1;
+  ^
+..\src\²åÈë-Ï£¶ûÅÅĞò.c:17:12: warning: incompatible implicit declaration of built-in function 'strlen' [enabled by default]
+  int len = strlen(a) - 1;
+            ^
+..\src\²åÈë-Ï£¶ûÅÅĞò.c:18:2: warning: implicit declaration of function 'print' [-Wimplicit-function-declaration]
+  print(a,len);
+  ^
+..\src\²åÈë-Ï£¶ûÅÅĞò.c:19:2: warning: implicit declaration of function 'shellSort' [-Wimplicit-function-declaration]
+  shellSort(a,len);
+  ^
+..\src\²åÈë-Ï£¶ûÅÅĞò.c: At top level:
+..\src\²åÈë-Ï£¶ûÅÅĞò.c:24:6: warning: conflicting types for 'print' [enabled by default]
+ void print(char a[], int n) {
+      ^
+..\src\²åÈë-Ï£¶ûÅÅĞò.c:18:2: note: previous implicit declaration of 'print' was here
+  print(a,len);
+  ^
+..\src\²åÈë-Ï£¶ûÅÅĞò.c:31:6: warning: conflicting types for 'shellSort' [enabled by default]
+ void shellSort(char a[], int n) {
+      ^
+..\src\²åÈë-Ï£¶ûÅÅĞò.c:19:2: note: previous implicit declaration of 'shellSort' was here
+  shellSort(a,len);
+  ^
+gcc -o ²åÈë-Ï£¶ûÅÅĞò.exe "src\\²åÈë-Ï£¶ûÅÅĞò.o" 
+
+17:20:49 Build Finished (took 910ms)
+

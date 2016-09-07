@@ -1,0 +1,7 @@
+17:20:12 **** Incremental Build of configuration Debug for project 中兴机试周鸣1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\中兴机试周鸣1.o" "..\\src\\中兴机试周鸣1.cpp" 
+g++ -o 中兴机试周鸣1.exe "src\\中兴机试周鸣1.o" 
+
+17:20:13 Build Finished (took 500ms)
+

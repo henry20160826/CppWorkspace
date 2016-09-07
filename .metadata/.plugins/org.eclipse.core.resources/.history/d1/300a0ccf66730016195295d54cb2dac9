@@ -1,0 +1,32 @@
+//============================================================================
+// Name        : 周鸣京东机试1.cpp
+// Author      : dh
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+//	cout << "Hello World" << endl; // prints Hello World
+	int mountains;
+	cin >> mountains;
+	int *heights = new int[mountains];
+	for (int i = 0; i < mountains; i++)
+	{
+		cin >> heights[i];
+	}
+	int couples = mountains;
+	int i, j;
+	for (i = 0; i < mountains; i++)
+	{
+		for (j = i + 1; j < i + 1 + mountains; j++)
+		{
+
+		}
+	}
+	return 0;
+}

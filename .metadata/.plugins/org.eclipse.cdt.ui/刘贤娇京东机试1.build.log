@@ -1,0 +1,7 @@
+20:26:36 **** Incremental Build of configuration Debug for project 刘贤娇京东机试1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\刘贤娇京东机试1.o" "..\\src\\刘贤娇京东机试1.cpp" 
+g++ -o 刘贤娇京东机试1.exe "src\\刘贤娇京东机试1.o" 
+
+20:26:37 Build Finished (took 523ms)
+
