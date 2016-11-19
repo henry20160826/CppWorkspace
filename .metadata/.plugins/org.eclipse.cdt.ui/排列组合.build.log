@@ -1,7 +1,7 @@
-01:00:17 **** Incremental Build of configuration Debug for project 排列组合 ****
+18:46:09 **** Incremental Build of configuration Debug for project 排列组合 ****
 Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\排列组合.o" "..\\src\\排列组合.cpp" 
 g++ -o 排列组合.exe "src\\排列组合.o" 
 
-01:00:17 Build Finished (took 672ms)
+18:46:10 Build Finished (took 580ms)
 

@@ -1,11 +1,11 @@
-20:23:36 **** Incremental Build of configuration Debug for project try ****
+23:33:29 **** Incremental Build of configuration Debug for project try ****
 Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\try.o" "..\\src\\try.cpp" 
 ..\src\try.cpp: In function 'int main()':
-..\src\try.cpp:15:6: warning: unused variable 'N' [-Wunused-variable]
+..\src\try.cpp:34:6: warning: unused variable 'N' [-Wunused-variable]
   int N;
       ^
 g++ -o try.exe "src\\try.o" 
 
-20:23:37 Build Finished (took 641ms)
+23:33:30 Build Finished (took 828ms)
 

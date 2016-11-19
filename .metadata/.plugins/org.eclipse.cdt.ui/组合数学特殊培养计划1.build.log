@@ -1,0 +1,17 @@
+10:48:08 **** Incremental Build of configuration Debug for project 组合数学特殊培养计划1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\组合数学特殊培养计划1.o" "..\\src\\组合数学特殊培养计划1.cpp" 
+..\src\组合数学特殊培养计划1.cpp: In constructor 'RepeatSet::RepeatSet(int*, int*, int)':
+..\src\组合数学特殊培养计划1.cpp:207:7: warning: 'RepeatSet::k' will be initialized after [-Wreorder]
+  int *k; //相同元素的个数,-1表示对应元素有无穷个
+       ^
+..\src\组合数学特殊培养计划1.cpp:205:6: warning:   'int RepeatSet::len' [-Wreorder]
+  int len; //集合中不同元素种数
+      ^
+..\src\组合数学特殊培养计划1.cpp:138:2: warning:   when initialized here [-Wreorder]
+  RepeatSet(int *aw, int *kw, int lenw) :
+  ^
+g++ -o 组合数学特殊培养计划1.exe "src\\组合数学特殊培养计划1.o" 
+
+10:48:09 Build Finished (took 578ms)
+

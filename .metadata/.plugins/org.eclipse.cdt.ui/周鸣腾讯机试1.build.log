@@ -1,0 +1,7 @@
+20:02:10 **** Incremental Build of configuration Debug for project 周鸣腾讯机试1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\周鸣腾讯机试1.o" "..\\src\\周鸣腾讯机试1.cpp" 
+g++ -o 周鸣腾讯机试1.exe "src\\周鸣腾讯机试1.o" 
+
+20:02:10 Build Finished (took 647ms)
+

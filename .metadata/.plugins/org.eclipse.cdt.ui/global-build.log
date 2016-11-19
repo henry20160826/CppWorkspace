@@ -1,21 +1,807 @@
-20:53:18 **** Rebuild of configuration Debug for project 周鸣京东机试1 ****
+20:57:49 **** Incremental Build of configuration Debug for project 大数 ****
 Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\周鸣京东机试1.o" "..\\src\\周鸣京东机试1.cpp" 
-g++ -o 周鸣京东机试1.exe "src\\周鸣京东机试1.o" 
-Info: Nothing to build for 周鸣京东机试1
-20:54:39 **** Incremental Build of configuration Debug for project 周鸣京东机试1 ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\周鸣京东机试1.o" "..\\src\\周鸣京东机试1.cpp" 
-g++ -o 周鸣京东机试1.exe "src\\周鸣京东机试1.o" 
-20:55:12 **** Incremental Build of configuration Debug for project 周鸣京东机试1 ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\周鸣京东机试1.o" "..\\src\\周鸣京东机试1.cpp" 
-g++ -o 周鸣京东机试1.exe "src\\周鸣京东机试1.o" 
-11:25:42 **** Incremental Build of configuration Debug for project 周鸣京东机试1 ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\周鸣京东机试1.o" "..\\src\\周鸣京东机试1.cpp" 
-..\src\周鸣京东机试1.cpp: In function 'int main()':
-..\src\周鸣京东机试1.cpp:28:7: warning: unused variable 'flag' [-Wunused-variable]
-  bool flag;
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\大数.o" "..\\src\\大数.cpp" 
+..\src\大数.cpp:109:15: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int lenNow = 0;
+               ^
+..\src\大数.cpp:110:12: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int len = 100;
+            ^
+..\src\大数.cpp: In function 'int main()':
+..\src\大数.cpp:115:12: error: call of overloaded 'BigNum(int)' is ambiguous
+  BigNum a(1);
+            ^
+..\src\大数.cpp:115:12: note: candidates are:
+..\src\大数.cpp:23:2: note: BigNum::BigNum(int, int)
+  BigNum(int a, int lenw = 100) :
+  ^
+..\src\大数.cpp:17:2: note: BigNum::BigNum(int)
+  BigNum(int lenw = 100) :
+  ^
+..\src\大数.cpp:13:7: note: BigNum::BigNum(const BigNum&)
+ class BigNum
        ^
-g++ -o 周鸣京东机试1.exe "src\\周鸣京东机试1.o" 
+20:57:58 **** Incremental Build of configuration Debug for project 大数 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\大数.o" "..\\src\\大数.cpp" 
+..\src\大数.cpp:109:15: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int lenNow = 0;
+               ^
+..\src\大数.cpp:110:12: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int len = 100;
+            ^
+g++ -o 大数.exe "src\\大数.o" 
+20:58:21 **** Incremental Build of configuration Debug for project 大数 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\大数.o" "..\\src\\大数.cpp" 
+..\src\大数.cpp:110:15: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int lenNow = 0;
+               ^
+..\src\大数.cpp:111:12: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int len = 100;
+            ^
+g++ -o 大数.exe "src\\大数.o" 
+14:33:10 **** Incremental Build of configuration Debug for project 大数 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\大数.o" "..\\src\\大数.cpp" 
+..\src\大数.cpp:134:15: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int lenNow = 0;
+               ^
+..\src\大数.cpp:135:12: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int len = 100;
+            ^
+..\src\大数.cpp: In member function 'BigNum* BigNum::multiply(BigNum)':
+..\src\大数.cpp:111:8: warning: unused variable 'carryOut2' [-Wunused-variable]
+    int carryOut2 = 0;
+        ^
+g++ -o 大数.exe "src\\大数.o" 
+14:33:32 **** Incremental Build of configuration Debug for project 大数 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\大数.o" "..\\src\\大数.cpp" 
+..\src\大数.cpp:134:15: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int lenNow = 0;
+               ^
+..\src\大数.cpp:135:12: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int len = 100;
+            ^
+..\src\大数.cpp: In member function 'BigNum* BigNum::multiply(BigNum)':
+..\src\大数.cpp:111:8: warning: unused variable 'carryOut2' [-Wunused-variable]
+    int carryOut2 = 0;
+        ^
+g++ -o 大数.exe "src\\大数.o" 
+14:34:13 **** Incremental Build of configuration Debug for project 大数 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\大数.o" "..\\src\\大数.cpp" 
+..\src\大数.cpp:134:15: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int lenNow = 0;
+               ^
+..\src\大数.cpp:135:12: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int len = 100;
+            ^
+..\src\大数.cpp: In member function 'BigNum* BigNum::multiply(BigNum)':
+..\src\大数.cpp:111:8: warning: unused variable 'carryOut2' [-Wunused-variable]
+    int carryOut2 = 0;
+        ^
+..\src\大数.cpp: In function 'int main()':
+..\src\大数.cpp:140:12: error: call of overloaded 'BigNum(int)' is ambiguous
+  BigNum a(1);
+            ^
+..\src\大数.cpp:140:12: note: candidates are:
+..\src\大数.cpp:26:2: note: BigNum::BigNum(int, int)
+  BigNum(int a, int lenw = 100) :
+  ^
+..\src\大数.cpp:19:2: note: BigNum::BigNum(int)
+  BigNum(int lenw = 100) :
+  ^
+..\src\大数.cpp:13:7: note: BigNum::BigNum(const BigNum&)
+ class BigNum
+       ^
+14:35:01 **** Incremental Build of configuration Debug for project 大数 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\大数.o" "..\\src\\大数.cpp" 
+..\src\大数.cpp:133:15: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int lenNow = 0;
+               ^
+..\src\大数.cpp:134:12: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int len = 100;
+            ^
+..\src\大数.cpp: In member function 'BigNum* BigNum::multiply(BigNum)':
+..\src\大数.cpp:110:8: warning: unused variable 'carryOut2' [-Wunused-variable]
+    int carryOut2 = 0;
+        ^
+g++ -o 大数.exe "src\\大数.o" 
+14:35:39 **** Incremental Build of configuration Debug for project 大数 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\大数.o" "..\\src\\大数.cpp" 
+..\src\大数.cpp:128:15: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int lenNow = 0;
+               ^
+..\src\大数.cpp:129:12: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int len = 100;
+            ^
+g++ -o 大数.exe "src\\大数.o" 
+14:37:14 **** Incremental Build of configuration Debug for project 大数 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\大数.o" "..\\src\\大数.cpp" 
+..\src\大数.cpp:129:15: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int lenNow = 0;
+               ^
+..\src\大数.cpp:130:12: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int len = 100;
+            ^
+g++ -o 大数.exe "src\\大数.o" 
+14:37:59 **** Incremental Build of configuration Debug for project 大数 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\大数.o" "..\\src\\大数.cpp" 
+..\src\大数.cpp:129:15: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int lenNow = 0;
+               ^
+..\src\大数.cpp:130:12: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int len = 100;
+            ^
+g++ -o 大数.exe "src\\大数.o" 
+14:39:20 **** Incremental Build of configuration Debug for project 大数 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\大数.o" "..\\src\\大数.cpp" 
+..\src\大数.cpp:130:15: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int lenNow = 0;
+               ^
+..\src\大数.cpp:131:12: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int len = 100;
+            ^
+g++ -o 大数.exe "src\\大数.o" 
+14:40:00 **** Incremental Build of configuration Debug for project 大数 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\大数.o" "..\\src\\大数.cpp" 
+..\src\大数.cpp:130:15: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int lenNow = 0;
+               ^
+..\src\大数.cpp:131:12: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int len = 100;
+            ^
+g++ -o 大数.exe "src\\大数.o" 
+14:42:32 **** Incremental Build of configuration Debug for project 大数 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\大数.o" "..\\src\\大数.cpp" 
+..\src\大数.cpp:130:15: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int lenNow = 0;
+               ^
+..\src\大数.cpp:131:12: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int len = 100;
+            ^
+g++ -o 大数.exe "src\\大数.o" 
+14:43:25 **** Incremental Build of configuration Debug for project 大数 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\大数.o" "..\\src\\大数.cpp" 
+..\src\大数.cpp:129:15: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int lenNow = 0;
+               ^
+..\src\大数.cpp:130:12: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int len = 100;
+            ^
+..\src\大数.cpp: In member function 'void BigNum::printAll()':
+..\src\大数.cpp:60:8: warning: unused variable 'temp' [-Wunused-variable]
+   char temp;
+        ^
+g++ -o 大数.exe "src\\大数.o" 
+14:43:39 **** Incremental Build of configuration Debug for project 大数 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\大数.o" "..\\src\\大数.cpp" 
+..\src\大数.cpp:129:15: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int lenNow = 0;
+               ^
+..\src\大数.cpp:130:12: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int len = 100;
+            ^
+..\src\大数.cpp: In member function 'void BigNum::printAll()':
+..\src\大数.cpp:60:8: warning: unused variable 'temp' [-Wunused-variable]
+   char temp;
+        ^
+g++ -o 大数.exe "src\\大数.o" 
+14:44:32 **** Incremental Build of configuration Debug for project 大数 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\大数.o" "..\\src\\大数.cpp" 
+..\src\大数.cpp:128:15: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int lenNow = 0;
+               ^
+..\src\大数.cpp:129:12: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int len = 100;
+            ^
+g++ -o 大数.exe "src\\大数.o" 
+14:44:55 **** Incremental Build of configuration Debug for project 大数 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\大数.o" "..\\src\\大数.cpp" 
+..\src\大数.cpp:128:15: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int lenNow = 0;
+               ^
+..\src\大数.cpp:129:12: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int len = 100;
+            ^
+g++ -o 大数.exe "src\\大数.o" 
+14:45:17 **** Incremental Build of configuration Debug for project 大数 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\大数.o" "..\\src\\大数.cpp" 
+..\src\大数.cpp:128:15: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int lenNow = 0;
+               ^
+..\src\大数.cpp:129:12: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int len = 100;
+            ^
+g++ -o 大数.exe "src\\大数.o" 
+14:46:27 **** Incremental Build of configuration Debug for project 大数 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\大数.o" "..\\src\\大数.cpp" 
+..\src\大数.cpp:129:15: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int lenNow = 0;
+               ^
+..\src\大数.cpp:130:12: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int len = 100;
+            ^
+g++ -o 大数.exe "src\\大数.o" 
+14:49:50 **** Incremental Build of configuration Debug for project 大数 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\大数.o" "..\\src\\大数.cpp" 
+..\src\大数.cpp:129:15: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int lenNow = 0;
+               ^
+..\src\大数.cpp:130:12: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int len = 100;
+            ^
+..\src\大数.cpp: In constructor 'BigNum::BigNum(char*, int, int)':
+..\src\大数.cpp:41:24: error: parenthesized initializer in array new [-fpermissive]
+   num = new char[len](s);
+                        ^
+14:49:59 **** Incremental Build of configuration Debug for project 大数 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\大数.o" "..\\src\\大数.cpp" 
+..\src\大数.cpp:129:15: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int lenNow = 0;
+               ^
+..\src\大数.cpp:130:12: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int len = 100;
+            ^
+g++ -o 大数.exe "src\\大数.o" 
+14:51:01 **** Incremental Build of configuration Debug for project 大数 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\大数.o" "..\\src\\大数.cpp" 
+..\src\大数.cpp:130:15: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int lenNow = 0;
+               ^
+..\src\大数.cpp:131:12: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int len = 100;
+            ^
+g++ -o 大数.exe "src\\大数.o" 
+14:51:25 **** Incremental Build of configuration Debug for project 大数 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\大数.o" "..\\src\\大数.cpp" 
+..\src\大数.cpp:130:15: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int lenNow = 0;
+               ^
+..\src\大数.cpp:131:12: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int len = 100;
+            ^
+g++ -o 大数.exe "src\\大数.o" 
+14:52:52 **** Incremental Build of configuration Debug for project 大数 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\大数.o" "..\\src\\大数.cpp" 
+..\src\大数.cpp:130:15: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int lenNow = 0;
+               ^
+..\src\大数.cpp:131:12: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int len = 100;
+            ^
+g++ -o 大数.exe "src\\大数.o" 
+14:55:19 **** Incremental Build of configuration Debug for project 大数 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\大数.o" "..\\src\\大数.cpp" 
+..\src\大数.cpp:131:15: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int lenNow = 0;
+               ^
+..\src\大数.cpp:132:12: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int len = 100;
+            ^
+g++ -o 大数.exe "src\\大数.o" 
+14:55:55 **** Incremental Build of configuration Debug for project 大数 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\大数.o" "..\\src\\大数.cpp" 
+..\src\大数.cpp:131:15: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int lenNow = 0;
+               ^
+..\src\大数.cpp:132:12: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int len = 100;
+            ^
+g++ -o 大数.exe "src\\大数.o" 
+14:57:10 **** Incremental Build of configuration Debug for project 大数 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\大数.o" "..\\src\\大数.cpp" 
+..\src\大数.cpp:133:15: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int lenNow = 0;
+               ^
+..\src\大数.cpp:134:12: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int len = 100;
+            ^
+g++ -o 大数.exe "src\\大数.o" 
+14:59:06 **** Incremental Build of configuration Debug for project 大数 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\大数.o" "..\\src\\大数.cpp" 
+..\src\大数.cpp:133:15: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int lenNow = 0;
+               ^
+..\src\大数.cpp:134:12: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int len = 100;
+            ^
+g++ -o 大数.exe "src\\大数.o" 
+14:59:30 **** Incremental Build of configuration Debug for project 大数 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\大数.o" "..\\src\\大数.cpp" 
+..\src\大数.cpp:133:15: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int lenNow = 0;
+               ^
+..\src\大数.cpp:134:12: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int len = 100;
+            ^
+g++ -o 大数.exe "src\\大数.o" 
+15:00:49 **** Incremental Build of configuration Debug for project 大数 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\大数.o" "..\\src\\大数.cpp" 
+..\src\大数.cpp:133:15: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int lenNow = 0;
+               ^
+..\src\大数.cpp:134:12: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int len = 100;
+            ^
+g++ -o 大数.exe "src\\大数.o" 
+15:03:32 **** Incremental Build of configuration Debug for project 大数 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\大数.o" "..\\src\\大数.cpp" 
+..\src\大数.cpp:135:15: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int lenNow = 0;
+               ^
+..\src\大数.cpp:136:12: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int len = 100;
+            ^
+..\src\大数.cpp: In member function 'BigNum* BigNum::multiply(BigNum)':
+..\src\大数.cpp:109:24: error: invalid conversion from 'BigNum*' to 'int' [-fpermissive]
+    BigNum result = new BigNum;
+                        ^
+..\src\大数.cpp:25:2: error:   initializing argument 1 of 'BigNum::BigNum(int, int)' [-fpermissive]
+  BigNum(int a, int lenw = 100) :
+  ^
+..\src\大数.cpp:118:25: error: expected primary-expression before '=' token
+      result.num[j + i]+ = a.num[i] * num[j] + carryOut1;
+                         ^
+15:03:42 **** Incremental Build of configuration Debug for project 大数 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\大数.o" "..\\src\\大数.cpp" 
+..\src\大数.cpp:135:15: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int lenNow = 0;
+               ^
+..\src\大数.cpp:136:12: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int len = 100;
+            ^
+..\src\大数.cpp: In member function 'BigNum* BigNum::multiply(BigNum)':
+..\src\大数.cpp:109:31: error: invalid conversion from 'BigNum*' to 'int' [-fpermissive]
+    BigNum result = new BigNum();
+                               ^
+..\src\大数.cpp:25:2: error:   initializing argument 1 of 'BigNum::BigNum(int, int)' [-fpermissive]
+  BigNum(int a, int lenw = 100) :
+  ^
+..\src\大数.cpp:118:25: error: expected primary-expression before '=' token
+      result.num[j + i]+ = a.num[i] * num[j] + carryOut1;
+                         ^
+15:04:13 **** Incremental Build of configuration Debug for project 大数 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\大数.o" "..\\src\\大数.cpp" 
+..\src\大数.cpp:135:15: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int lenNow = 0;
+               ^
+..\src\大数.cpp:136:12: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int len = 100;
+            ^
+..\src\大数.cpp: In member function 'BigNum* BigNum::multiply(BigNum)':
+..\src\大数.cpp:109:31: error: invalid conversion from 'BigNum*' to 'int' [-fpermissive]
+    BigNum result = new BigNum();
+                               ^
+..\src\大数.cpp:25:2: error:   initializing argument 1 of 'BigNum::BigNum(int, int)' [-fpermissive]
+  BigNum(int a, int lenw = 100) :
+  ^
+..\src\大数.cpp:118:25: error: expected primary-expression before '=' token
+      result.num[j + i]+ = a.num[i] * num[j] + carryOut1;
+                         ^
+15:04:21 **** Incremental Build of configuration Debug for project 大数 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\大数.o" "..\\src\\大数.cpp" 
+..\src\大数.cpp:135:15: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int lenNow = 0;
+               ^
+..\src\大数.cpp:136:12: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int len = 100;
+            ^
+..\src\大数.cpp: In member function 'BigNum* BigNum::multiply(BigNum)':
+..\src\大数.cpp:109:31: error: invalid conversion from 'BigNum*' to 'int' [-fpermissive]
+    BigNum result = new BigNum();
+                               ^
+..\src\大数.cpp:25:2: error:   initializing argument 1 of 'BigNum::BigNum(int, int)' [-fpermissive]
+  BigNum(int a, int lenw = 100) :
+  ^
+..\src\大数.cpp:118:25: error: expected primary-expression before '=' token
+      result.num[j + i]+ = a.num[i] * num[j] + carryOut1;
+                         ^
+15:04:41 **** Incremental Build of configuration Debug for project 大数 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\大数.o" "..\\src\\大数.cpp" 
+..\src\大数.cpp:135:15: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int lenNow = 0;
+               ^
+..\src\大数.cpp:136:12: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int len = 100;
+            ^
+..\src\大数.cpp: In member function 'BigNum* BigNum::multiply(BigNum)':
+..\src\大数.cpp:110:8: warning: variable 'carryOut1' set but not used [-Wunused-but-set-variable]
+    int carryOut1 = 0;
+        ^
+g++ -o 大数.exe "src\\大数.o" 
+15:04:56 **** Incremental Build of configuration Debug for project 大数 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\大数.o" "..\\src\\大数.cpp" 
+..\src\大数.cpp:135:15: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int lenNow = 0;
+               ^
+..\src\大数.cpp:136:12: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int len = 100;
+            ^
+..\src\大数.cpp: In member function 'BigNum* BigNum::multiply(BigNum)':
+..\src\大数.cpp:118:13: error: request for member 'num' in 'result', which is of non-class type 'BigNum()'
+      result.num[j + i]+ = a.num[i] * num[j] + carryOut1;
+             ^
+..\src\大数.cpp:118:25: error: expected primary-expression before '=' token
+      result.num[j + i]+ = a.num[i] * num[j] + carryOut1;
+                         ^
+15:05:16 **** Incremental Build of configuration Debug for project 大数 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\大数.o" "..\\src\\大数.cpp" 
+..\src\大数.cpp:135:15: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int lenNow = 0;
+               ^
+..\src\大数.cpp:136:12: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int len = 100;
+            ^
+..\src\大数.cpp: In member function 'BigNum* BigNum::multiply(BigNum)':
+..\src\大数.cpp:118:13: error: request for member 'num' in 'result', which is of non-class type 'BigNum()'
+      result.num[j + i]= a.num[i] * num[j] + carryOut1;
+             ^
+15:06:07 **** Incremental Build of configuration Debug for project 大数 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\大数.o" "..\\src\\大数.cpp" 
+..\src\大数.cpp:135:15: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int lenNow = 0;
+               ^
+..\src\大数.cpp:136:12: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int len = 100;
+            ^
+..\src\大数.cpp: In member function 'BigNum* BigNum::multiply(BigNum)':
+..\src\大数.cpp:118:13: error: request for member 'num' in 'result', which is of non-class type 'BigNum()'
+      result.num[j + i]= 0;
+             ^
+15:07:21 **** Incremental Build of configuration Debug for project 大数 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\大数.o" "..\\src\\大数.cpp" 
+..\src\大数.cpp:135:15: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int lenNow = 0;
+               ^
+..\src\大数.cpp:136:12: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int len = 100;
+            ^
+g++ -o 大数.exe "src\\大数.o" 
+15:07:59 **** Incremental Build of configuration Debug for project 大数 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\大数.o" "..\\src\\大数.cpp" 
+..\src\大数.cpp:135:15: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int lenNow = 0;
+               ^
+..\src\大数.cpp:136:12: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int len = 100;
+            ^
+..\src\大数.cpp: In member function 'BigNum* BigNum::multiply(BigNum)':
+..\src\大数.cpp:131:10: error: 'result' was not declared in this scope
+   return result;
+          ^
+..\src\大数.cpp:132:2: warning: control reaches end of non-void function [-Wreturn-type]
+  }
+  ^
+15:08:35 **** Incremental Build of configuration Debug for project 大数 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\大数.o" "..\\src\\大数.cpp" 
+..\src\大数.cpp:135:15: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int lenNow = 0;
+               ^
+..\src\大数.cpp:136:12: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int len = 100;
+            ^
+..\src\大数.cpp: In member function 'BigNum* BigNum::multiply(BigNum)':
+..\src\大数.cpp:131:10: error: 'result' was not declared in this scope
+   return result;
+          ^
+..\src\大数.cpp:132:2: warning: control reaches end of non-void function [-Wreturn-type]
+  }
+  ^
+15:08:57 **** Incremental Build of configuration Debug for project 大数 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\大数.o" "..\\src\\大数.cpp" 
+..\src\大数.cpp:136:15: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int lenNow = 0;
+               ^
+..\src\大数.cpp:137:12: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int len = 100;
+            ^
+g++ -o 大数.exe "src\\大数.o" 
+15:09:29 **** Incremental Build of configuration Debug for project 大数 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\大数.o" "..\\src\\大数.cpp" 
+..\src\大数.cpp:136:15: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int lenNow = 0;
+               ^
+..\src\大数.cpp:137:12: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int len = 100;
+            ^
+g++ -o 大数.exe "src\\大数.o" 
+15:10:05 **** Incremental Build of configuration Debug for project 大数 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\大数.o" "..\\src\\大数.cpp" 
+..\src\大数.cpp:134:15: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int lenNow = 0;
+               ^
+..\src\大数.cpp:135:12: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int len = 100;
+            ^
+g++ -o 大数.exe "src\\大数.o" 
+15:10:59 **** Incremental Build of configuration Debug for project 大数 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\大数.o" "..\\src\\大数.cpp" 
+..\src\大数.cpp:134:15: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int lenNow = 0;
+               ^
+..\src\大数.cpp:135:12: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int len = 100;
+            ^
+g++ -o 大数.exe "src\\大数.o" 
+15:11:25 **** Incremental Build of configuration Debug for project 大数 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\大数.o" "..\\src\\大数.cpp" 
+..\src\大数.cpp:135:15: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int lenNow = 0;
+               ^
+..\src\大数.cpp:136:12: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int len = 100;
+            ^
+g++ -o 大数.exe "src\\大数.o" 
+15:11:45 **** Incremental Build of configuration Debug for project 大数 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\大数.o" "..\\src\\大数.cpp" 
+..\src\大数.cpp:135:15: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int lenNow = 0;
+               ^
+..\src\大数.cpp:136:12: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int len = 100;
+            ^
+g++ -o 大数.exe "src\\大数.o" 
+15:13:17 **** Incremental Build of configuration Debug for project 大数 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\大数.o" "..\\src\\大数.cpp" 
+..\src\大数.cpp:136:15: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int lenNow = 0;
+               ^
+..\src\大数.cpp:137:12: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int len = 100;
+            ^
+g++ -o 大数.exe "src\\大数.o" 
+15:13:54 **** Incremental Build of configuration Debug for project 大数 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\大数.o" "..\\src\\大数.cpp" 
+..\src\大数.cpp:137:15: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int lenNow = 0;
+               ^
+..\src\大数.cpp:138:12: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int len = 100;
+            ^
+g++ -o 大数.exe "src\\大数.o" 
+15:14:11 **** Incremental Build of configuration Debug for project 大数 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\大数.o" "..\\src\\大数.cpp" 
+..\src\大数.cpp:137:15: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int lenNow = 0;
+               ^
+..\src\大数.cpp:138:12: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int len = 100;
+            ^
+g++ -o 大数.exe "src\\大数.o" 
+15:14:31 **** Incremental Build of configuration Debug for project 大数 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\大数.o" "..\\src\\大数.cpp" 
+..\src\大数.cpp:136:15: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int lenNow = 0;
+               ^
+..\src\大数.cpp:137:12: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int len = 100;
+            ^
+g++ -o 大数.exe "src\\大数.o" 
+15:14:44 **** Incremental Build of configuration Debug for project 大数 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\大数.o" "..\\src\\大数.cpp" 
+..\src\大数.cpp:135:15: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int lenNow = 0;
+               ^
+..\src\大数.cpp:136:12: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int len = 100;
+            ^
+g++ -o 大数.exe "src\\大数.o" 
+15:14:51 **** Incremental Build of configuration Debug for project 大数 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\大数.o" "..\\src\\大数.cpp" 
+..\src\大数.cpp:135:15: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int lenNow = 0;
+               ^
+..\src\大数.cpp:136:12: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int len = 100;
+            ^
+g++ -o 大数.exe "src\\大数.o" 
+15:15:02 **** Incremental Build of configuration Debug for project 大数 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\大数.o" "..\\src\\大数.cpp" 
+..\src\大数.cpp:135:15: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int lenNow = 0;
+               ^
+..\src\大数.cpp:136:12: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int len = 100;
+            ^
+g++ -o 大数.exe "src\\大数.o" 
+15:15:12 **** Incremental Build of configuration Debug for project 大数 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\大数.o" "..\\src\\大数.cpp" 
+..\src\大数.cpp:135:15: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int lenNow = 0;
+               ^
+..\src\大数.cpp:136:12: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int len = 100;
+            ^
+g++ -o 大数.exe "src\\大数.o" 
+15:16:04 **** Incremental Build of configuration Debug for project 大数 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\大数.o" "..\\src\\大数.cpp" 
+..\src\大数.cpp:136:15: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int lenNow = 0;
+               ^
+..\src\大数.cpp:137:12: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int len = 100;
+            ^
+g++ -o 大数.exe "src\\大数.o" 
+15:16:15 **** Incremental Build of configuration Debug for project 大数 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\大数.o" "..\\src\\大数.cpp" 
+..\src\大数.cpp:136:15: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int lenNow = 0;
+               ^
+..\src\大数.cpp:137:12: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int len = 100;
+            ^
+g++ -o 大数.exe "src\\大数.o" 
+15:17:28 **** Incremental Build of configuration Debug for project 大数 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\大数.o" "..\\src\\大数.cpp" 
+..\src\大数.cpp:137:15: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int lenNow = 0;
+               ^
+..\src\大数.cpp:138:12: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int len = 100;
+            ^
+g++ -o 大数.exe "src\\大数.o" 
+15:17:39 **** Incremental Build of configuration Debug for project 大数 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\大数.o" "..\\src\\大数.cpp" 
+..\src\大数.cpp:137:15: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int lenNow = 0;
+               ^
+..\src\大数.cpp:138:12: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int len = 100;
+            ^
+g++ -o 大数.exe "src\\大数.o" 
+15:21:22 **** Incremental Build of configuration Debug for project 大数 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\大数.o" "..\\src\\大数.cpp" 
+..\src\大数.cpp:137:15: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int lenNow = 0;
+               ^
+..\src\大数.cpp:138:12: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  int len = 100;
+            ^
+..\src\大数.cpp: In function 'int main()':
+..\src\大数.cpp:144:7: warning: unused variable 'c' [-Wunused-variable]
+  char c[] = "999999";
+       ^
+g++ -o 大数.exe "src\\大数.o" 
+09:58:11 **** Incremental Build of configuration Debug for project 组合数学特殊培养计划1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\组合数学特殊培养计划1.o" "..\\src\\组合数学特殊培养计划1.cpp" 
+..\src\组合数学特殊培养计划1.cpp: In constructor 'RepeatSet::RepeatSet(int*, int*, int)':
+..\src\组合数学特殊培养计划1.cpp:207:7: warning: 'RepeatSet::k' will be initialized after [-Wreorder]
+  int *k; //相同元素的个数,-1表示对应元素有无穷个
+       ^
+..\src\组合数学特殊培养计划1.cpp:205:6: warning:   'int RepeatSet::len' [-Wreorder]
+  int len; //集合中不同元素种数
+      ^
+..\src\组合数学特殊培养计划1.cpp:138:2: warning:   when initialized here [-Wreorder]
+  RepeatSet(int *aw, int *kw, int lenw) :
+  ^
+g++ -o 组合数学特殊培养计划1.exe "src\\组合数学特殊培养计划1.o" 
+Info: Nothing to build for 组合数学特殊培养计划1
+Info: Nothing to build for 组合数学特殊培养计划1
+10:17:36 **** Incremental Build of configuration Debug for project 组合数学特殊培养计划1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\组合数学特殊培养计划1.o" "..\\src\\组合数学特殊培养计划1.cpp" 
+..\src\组合数学特殊培养计划1.cpp: In constructor 'RepeatSet::RepeatSet(int*, int*, int)':
+..\src\组合数学特殊培养计划1.cpp:207:7: warning: 'RepeatSet::k' will be initialized after [-Wreorder]
+  int *k; //相同元素的个数,-1表示对应元素有无穷个
+       ^
+..\src\组合数学特殊培养计划1.cpp:205:6: warning:   'int RepeatSet::len' [-Wreorder]
+  int len; //集合中不同元素种数
+      ^
+..\src\组合数学特殊培养计划1.cpp:138:2: warning:   when initialized here [-Wreorder]
+  RepeatSet(int *aw, int *kw, int lenw) :
+  ^
+g++ -o 组合数学特殊培养计划1.exe "src\\组合数学特殊培养计划1.o" 
+10:45:49 **** Incremental Build of configuration Debug for project 组合数学特殊培养计划1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\组合数学特殊培养计划1.o" "..\\src\\组合数学特殊培养计划1.cpp" 
+..\src\组合数学特殊培养计划1.cpp: In constructor 'RepeatSet::RepeatSet(int*, int*, int)':
+..\src\组合数学特殊培养计划1.cpp:207:7: warning: 'RepeatSet::k' will be initialized after [-Wreorder]
+  int *k; //相同元素的个数,-1表示对应元素有无穷个
+       ^
+..\src\组合数学特殊培养计划1.cpp:205:6: warning:   'int RepeatSet::len' [-Wreorder]
+  int len; //集合中不同元素种数
+      ^
+..\src\组合数学特殊培养计划1.cpp:138:2: warning:   when initialized here [-Wreorder]
+  RepeatSet(int *aw, int *kw, int lenw) :
+  ^
+g++ -o 组合数学特殊培养计划1.exe "src\\组合数学特殊培养计划1.o" 
+10:46:37 **** Incremental Build of configuration Debug for project 组合数学特殊培养计划1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\组合数学特殊培养计划1.o" "..\\src\\组合数学特殊培养计划1.cpp" 
+..\src\组合数学特殊培养计划1.cpp: In constructor 'RepeatSet::RepeatSet(int*, int*, int)':
+..\src\组合数学特殊培养计划1.cpp:207:7: warning: 'RepeatSet::k' will be initialized after [-Wreorder]
+  int *k; //相同元素的个数,-1表示对应元素有无穷个
+       ^
+..\src\组合数学特殊培养计划1.cpp:205:6: warning:   'int RepeatSet::len' [-Wreorder]
+  int len; //集合中不同元素种数
+      ^
+..\src\组合数学特殊培养计划1.cpp:138:2: warning:   when initialized here [-Wreorder]
+  RepeatSet(int *aw, int *kw, int lenw) :
+  ^
+g++ -o 组合数学特殊培养计划1.exe "src\\组合数学特殊培养计划1.o" 
+10:46:55 **** Incremental Build of configuration Debug for project 组合数学特殊培养计划1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\组合数学特殊培养计划1.o" "..\\src\\组合数学特殊培养计划1.cpp" 
+..\src\组合数学特殊培养计划1.cpp: In constructor 'RepeatSet::RepeatSet(int*, int*, int)':
+..\src\组合数学特殊培养计划1.cpp:207:7: warning: 'RepeatSet::k' will be initialized after [-Wreorder]
+  int *k; //相同元素的个数,-1表示对应元素有无穷个
+       ^
+..\src\组合数学特殊培养计划1.cpp:205:6: warning:   'int RepeatSet::len' [-Wreorder]
+  int len; //集合中不同元素种数
+      ^
+..\src\组合数学特殊培养计划1.cpp:138:2: warning:   when initialized here [-Wreorder]
+  RepeatSet(int *aw, int *kw, int lenw) :
+  ^
+g++ -o 组合数学特殊培养计划1.exe "src\\组合数学特殊培养计划1.o" 
+10:48:08 **** Incremental Build of configuration Debug for project 组合数学特殊培养计划1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\组合数学特殊培养计划1.o" "..\\src\\组合数学特殊培养计划1.cpp" 
+..\src\组合数学特殊培养计划1.cpp: In constructor 'RepeatSet::RepeatSet(int*, int*, int)':
+..\src\组合数学特殊培养计划1.cpp:207:7: warning: 'RepeatSet::k' will be initialized after [-Wreorder]
+  int *k; //相同元素的个数,-1表示对应元素有无穷个
+       ^
+..\src\组合数学特殊培养计划1.cpp:205:6: warning:   'int RepeatSet::len' [-Wreorder]
+  int len; //集合中不同元素种数
+      ^
+..\src\组合数学特殊培养计划1.cpp:138:2: warning:   when initialized here [-Wreorder]
+  RepeatSet(int *aw, int *kw, int lenw) :
+  ^
+g++ -o 组合数学特殊培养计划1.exe "src\\组合数学特殊培养计划1.o" 

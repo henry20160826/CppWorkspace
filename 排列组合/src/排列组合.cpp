@@ -16,9 +16,9 @@ int main()
 	cout << "Hello World" << endl; // prints Hello World
 	int N = 5;
 	int *p = new int[N];
-	for (int i = 0; i < N; i++)
+	for (int i = 2; i < N + 2; i++)
 	{
-		p[i] = i;
+		p[i - 2] = i;
 	}
 //	Arrangement arrangement(p, N);
 //	cout << arrangement.printAllArrangement();
