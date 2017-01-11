@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Two Sum&apos; to &apos;1. Two Sum&apos;" description="Rename resource &apos;Two Sum&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Two Sum" name="1. Two Sum" stamp="1484108566955" updateReferences="true"/>
+</session>

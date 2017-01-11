@@ -1,0 +1,7 @@
+22:06:59 **** Incremental Build of configuration Debug for project Create Maximum Number ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Create Maximum Number.o" "..\\src\\Create Maximum Number.cpp" 
+g++ -o "Create Maximum Number.exe" "src\\Create Maximum Number.o" 
+
+22:07:02 Build Finished (took 3s.642ms)
+

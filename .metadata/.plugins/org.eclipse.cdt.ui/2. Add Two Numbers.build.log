@@ -1,0 +1,14 @@
+23:12:30 **** Incremental Build of configuration Debug for project 2. Add Two Numbers ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2. Add Two Numbers.o" "..\\src\\2. Add Two Numbers.cpp" 
+..\src\2. Add Two Numbers.cpp: In constructor 'ListNode::ListNode(int)':
+..\src\2. Add Two Numbers.cpp:32:21: error: invalid conversion from 'void*' to 'ListNode*' [-fpermissive]
+    val(x), next(NULL)
+                     ^
+..\src\2. Add Two Numbers.cpp: In member function 'ListNode* Solution::addTwoNumbers(ListNode*, ListNode*)':
+..\src\2. Add Two Numbers.cpp:42:2: warning: no return statement in function returning non-void [-Wreturn-type]
+  }
+  ^
+
+23:12:31 Build Finished (took 261ms)
+
