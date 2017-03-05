@@ -1,0 +1,7 @@
+20:56:57 **** Incremental Build of configuration Debug for project Valid Parentheses ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Valid Parentheses.o" "..\\src\\Valid Parentheses.cpp" 
+g++ -o "Valid Parentheses.exe" "src\\Valid Parentheses.o" 
+
+20:56:58 Build Finished (took 497ms)
+

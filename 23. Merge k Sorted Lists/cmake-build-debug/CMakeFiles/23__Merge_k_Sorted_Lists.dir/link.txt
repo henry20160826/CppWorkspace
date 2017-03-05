@@ -1,0 +1,3 @@
+"D:\Program Files (x86)\JetBrains\CLion 2016.3.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\23__Merge_k_Sorted_Lists.dir/objects.a
+D:\MinGW\bin\ar.exe cr CMakeFiles\23__Merge_k_Sorted_Lists.dir/objects.a @CMakeFiles\23__Merge_k_Sorted_Lists.dir\objects1.rsp
+D:\MinGW\bin\g++.exe  -g   -Wl,--whole-archive CMakeFiles\23__Merge_k_Sorted_Lists.dir/objects.a -Wl,--no-whole-archive  -o 23__Merge_k_Sorted_Lists.exe -Wl,--out-implib,lib23__Merge_k_Sorted_Lists.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\23__Merge_k_Sorted_Lists.dir\linklibs.rsp

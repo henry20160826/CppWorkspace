@@ -215,12 +215,12 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_CI34cHlzEeWI8tB87yGymA" elementId="org.eclipse.ui.editorss" selectedElement="_CI34cXlzEeWI8tB87yGymA">
-      <children xsi:type="basic:PartStack" xmi:id="_CI34cXlzEeWI8tB87yGymA" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_A2FLoNfWEeayoNzwtz-5ug">
+      <children xsi:type="basic:PartStack" xmi:id="_CI34cXlzEeWI8tB87yGymA" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_IMdToOqrEea7TcaR6VXeuQ">
         <tags>newtablook</tags>
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
-        <children xsi:type="basic:Part" xmi:id="_A2FLoNfWEeayoNzwtz-5ug" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="4. Median of Two Sorted Arrays.cpp" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/obj16/c_file_obj.gif" tooltip="4. Median of Two Sorted Arrays/src/4. Median of Two Sorted Arrays.cpp" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/4. Median of Two Sorted Arrays/src/4. Median of Two Sorted Arrays.cpp&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1338&quot; selectionTopPixel=&quot;728&quot;/>&#xD;&#xA;&lt;/editor>"/>
+        <children xsi:type="basic:Part" xmi:id="_IMdToOqrEea7TcaR6VXeuQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="68. Text Justification.cpp" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/obj16/c_file_obj.gif" tooltip="68. Text Justification/src/68. Text Justification.cpp" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/68. Text Justification/src/68. Text Justification.cpp&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1762&quot; selectionTopPixel=&quot;677&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
         </children>
@@ -249,7 +249,7 @@
       <tags>categoryTag:General</tags>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_CJUkY3lzEeWI8tB87yGymA" elementId="org.eclipse.ui.views.ProblemView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Problems" iconURI="platform:/plugin/org.eclipse.ui.ide//icons/full/eview16/problems_view.gif" tooltip="0 items" closeable="true">
-      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view PRIMARY_SORT_FIELD=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot; categoryGroup=&quot;org.eclipse.ui.ide.severity&quot; markerContentGenerator=&quot;org.eclipse.ui.ide.problemsGenerator&quot; partName=&quot;Problems&quot;>&#xD;&#xA;&lt;columnWidths org.eclipse.ui.ide.locationField=&quot;150&quot; org.eclipse.ui.ide.markerType=&quot;150&quot; org.eclipse.ui.ide.pathField=&quot;200&quot; org.eclipse.ui.ide.resourceField=&quot;278&quot; org.eclipse.ui.ide.severityAndDescriptionField=&quot;635&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.resourceField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.pathField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.locationField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.markerType&quot;/>&#xD;&#xA;&lt;/view>"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view PRIMARY_SORT_FIELD=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot; categoryGroup=&quot;org.eclipse.ui.ide.severity&quot; markerContentGenerator=&quot;org.eclipse.ui.ide.problemsGenerator&quot; partName=&quot;Problems&quot;>&#xD;&#xA;&lt;expanded>&#xD;&#xA;&lt;category IMemento.internal.id=&quot;Errors&quot;/>&#xD;&#xA;&lt;category IMemento.internal.id=&quot;Warnings (1 item)&quot;/>&#xD;&#xA;&lt;category IMemento.internal.id=&quot;Warnings&quot;/>&#xD;&#xA;&lt;/expanded>&#xD;&#xA;&lt;columnWidths org.eclipse.ui.ide.locationField=&quot;150&quot; org.eclipse.ui.ide.markerType=&quot;150&quot; org.eclipse.ui.ide.pathField=&quot;200&quot; org.eclipse.ui.ide.resourceField=&quot;278&quot; org.eclipse.ui.ide.severityAndDescriptionField=&quot;635&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.resourceField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.pathField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.locationField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.markerType&quot;/>&#xD;&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
       <menus xmi:id="_CbpDcHlzEeWI8tB87yGymA" elementId="org.eclipse.ui.views.ProblemView">
@@ -641,10 +641,15 @@
     <bindings xmi:id="_BuqB_XlzEeWI8tB87yGymA" keySequence="INSERT" command="_BtKNWXlzEeWI8tB87yGymA"/>
     <bindings xmi:id="_BuqCBXlzEeWI8tB87yGymA" keySequence="ALT+ARROW_UP" command="_Btdu4XlzEeWI8tB87yGymA"/>
     <bindings xmi:id="_BuqCBnlzEeWI8tB87yGymA" keySequence="CTRL+DEL" command="_BtT9_3lzEeWI8tB87yGymA"/>
-    <bindings xmi:id="_BuqCE3lzEeWI8tB87yGymA" keySequence="ALT+CTRL+ARROW_DOWN" command="_BtT-ynlzEeWI8tB87yGymA"/>
+    <bindings xmi:id="_BuqCE3lzEeWI8tB87yGymA" keySequence="ALT+CTRL+ARROW_DOWN" command="_BtT-ynlzEeWI8tB87yGymA">
+      <tags>deleted</tags>
+    </bindings>
     <bindings xmi:id="_BuzLoXlzEeWI8tB87yGymA" keySequence="ESC CTRL+F" command="_BtKNSXlzEeWI8tB87yGymA"/>
     <bindings xmi:id="_nK6rkGEREeaz7IEX_Zc2zw" keySequence="ALT+CTRL+/" command="_BtT-mnlzEeWI8tB87yGymA">
       <tags>locale:zh</tags>
+    </bindings>
+    <bindings xmi:id="_nJ60kNr4EeaFKdxJxiO6pg" keySequence="ALT+CTRL+ARROW_DOWN ALT+CTRL+C" command="_BtT-ynlzEeWI8tB87yGymA">
+      <tags>type:user</tags>
     </bindings>
   </bindingTables>
   <bindingTables xmi:id="_BuNVt3lzEeWI8tB87yGymA" elementId="org.eclipse.cdt.ui.cEditorScope" bindingContext="_BtdvLXlzEeWI8tB87yGymA">

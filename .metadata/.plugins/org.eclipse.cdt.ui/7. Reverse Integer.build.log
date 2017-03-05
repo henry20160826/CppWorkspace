@@ -1,0 +1,7 @@
+15:15:13 **** Incremental Build of configuration Debug for project 7. Reverse Integer ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\7. Reverse Integer.o" "..\\src\\7. Reverse Integer.cpp" 
+g++ -o "7. Reverse Integer.exe" "src\\7. Reverse Integer.o" 
+
+15:15:13 Build Finished (took 533ms)
+

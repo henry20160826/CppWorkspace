@@ -1,0 +1,76 @@
+//============================================================================
+// Name        : .cpp
+// Author      : dh
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+// Given an array of words and a length L, format the text such that each line has exactly L characters and is fully (left and right) justified.
+//
+//You should pack your words in a greedy approach; that is, pack as many words as you can in each line. Pad extra spaces ' ' when necessary so that each line has exactly L characters.
+//
+//Extra spaces between words should be distributed as evenly as possible. If the number of spaces on a line do not divide evenly between words, the empty slots on the left will be assigned more spaces than the slots on the right.
+//
+//For the last line of text, it should be left justified and no extra space is inserted between words.
+//
+//For example,
+//words: ["This", "is", "an", "example", "of", "text", "justification."]
+//L: 16.
+//
+//Return the formatted lines as:
+//
+//[
+//   "This    is    an",
+//   "example  of text",
+//   "justification.  "
+//]
+//
+//Note: Each word is guaranteed not to exceed L in length.
+//
+//click to show corner cases.
+
+#include <iostream>
+#include <vector>
+using namespace std;
+
+class Solution
+{
+public:
+	vector<string> fullJustify(vector<string>& words, int maxWidth)
+	{
+		int nowlen = 0; //当前行的字符长度
+		int wordsLen = words.size();
+		int i;
+		int start = 0;
+		vector<string> rs;
+		for (i = 0; i < wordsLen; ++i)
+		{
+			if (nowlen + 1 + words[i].size() > maxWidth)
+			{
+				//这一行包含[start,i)这几个词，搞定这一行
+				int remain = maxWidth - nowlen; //这一行需要填补的空格数
+				int num = i - start - 1; //这一行的空格数
+				string s(words[start]);
+				if (num > 0)
+				{
+					int evenlyspace = remain / num;
+
+				}
+				rs.push_back(s);
+				nowlen = words[i];
+				start = i;
+			}
+			else
+			{
+				nowlen += 1 + words[i];
+			}
+		}
+	}
+};
+
+int main()
+{
+	cout << "Hello World" << endl; // prints Hello World
+	return 0;
+}

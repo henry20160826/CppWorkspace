@@ -1,0 +1,11 @@
+21:12:33 **** Incremental Build of configuration Debug for project 14. Longest Common Prefix ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\14. Longest Common Prefix.o" "..\\src\\14. Longest Common Prefix.cpp" 
+..\src\14. Longest Common Prefix.cpp: In member function 'std::string Solution::longestCommonPrefix(std::vector<std::basic_string<char> >&)':
+..\src\14. Longest Common Prefix.cpp:26:27: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if (strs[i].length() > minLen)
+                           ^
+g++ -o "14. Longest Common Prefix.exe" "src\\14. Longest Common Prefix.o" 
+
+21:12:34 Build Finished (took 687ms)
+

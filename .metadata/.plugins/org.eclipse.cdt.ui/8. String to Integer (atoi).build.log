@@ -1,0 +1,10 @@
+14:56:32 **** Incremental Build of configuration Debug for project 8. String to Integer (atoi) ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\8. String to Integer (atoi).o" "..\\src\\8. String to Integer (atoi).cpp" 
+..\src\8. String to Integer (atoi).cpp:79:6: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+      return -2147483648;
+      ^
+g++ -o "8. String to Integer (atoi).exe" "src\\8. String to Integer (atoi).o" 
+
+14:56:33 Build Finished (took 495ms)
+

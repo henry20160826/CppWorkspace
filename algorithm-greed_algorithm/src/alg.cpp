@@ -1,0 +1,91 @@
+//============================================================================
+// Name        : alg.cpp
+// Author      : dh
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <vector>
+#include <algorithm>
+using namespace std;
+class interval
+{
+public:
+	interval()
+	{
+		startTime = 0;
+		endTime = 0;
+	}
+	interval(int s, int e)
+	{
+		set(s, e);
+	}
+	void set(int s, int e)
+	{
+		startTime = s;
+		endTime = e;
+	}
+	int startTime;
+	int endTime;
+private:
+};
+class Cmp
+{
+public:
+	bool operator()(const interval &t1, const interval &t2)
+	{
+		if (t1.endTime < t2.endTime)
+		{
+			return true;
+		}
+		return false;
+	}
+};
+#define N 8
+int main()
+{
+	//赋值
+	int startTime[N] =
+	{ 0, 1, 3, 3, 4, 5, 6, 8 };
+	int endTime[N] =
+	{ 6, 4, 5, 8, 7, 9, 10, 11 };
+	vector<interval> v;
+	for (int i = 0; i < 8; ++i)
+	{
+		v.push_back(interval(startTime[i], endTime[i]));
+	}
+	//按结束时间递增的顺序对任务进行排序
+	sort(v.begin(), v.end(), Cmp());
+	vector<interval> rv;
+	//选择不与已选择任务冲突的结束时间最早的任务
+	//1.不与已选任务冲突
+	//2.结束时间最早
+	rv.push_back(v[0]);
+	v.erase(v.begin());
+	int len = v.size();
+	int i = 0, j = 0;
+	for (; i < len; ++i)
+	{
+		//判断是否冲突
+		if (v[i].startTime < rv[j].endTime)
+		{
+			//冲突,略过这个选项
+		}
+		else
+		{
+			//找到第一个不冲突的任务
+			//添加
+			rv.push_back(v[i]);
+			++j;
+		}
+	}
+	//输出结果
+	len = rv.size();
+	for (int i = 0; i < len; ++i)
+	{
+		cout << rv[i].startTime << " " << rv[i].endTime << endl;
+	}
+	return 0;
+}

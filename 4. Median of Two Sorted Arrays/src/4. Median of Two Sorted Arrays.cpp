@@ -41,6 +41,11 @@ public:
 		rightNums1 = m - 1;
 		leftNums2 = 0;
 		rightNums2 = n - 1;
+		bool isOne = true; //表示中位数一个数的值还是两个数的平均
+		if (0 == (m + n) % 2)
+		{
+			isOne = false;
+		}
 		while (leftNums1 <= rightNums1 && leftNums2 <= rightNums2)
 		{
 			midNums1 = (leftNums1 + rightNums1) / 2;
@@ -61,6 +66,23 @@ public:
 			}
 		}
 		rd = (nums1[midNums1] + nums2[midNums2]) / 2;
+		return rd;
+	}
+	double findMedianSortedArray(vector<int>& nums1, int begin, int end)
+	{
+		int len = end - begin + 1;
+		int mid = (begin + end) / 2;
+		double rd;
+		if (1 == len % 2)
+		{
+			//取一个数做为中位数
+			rd = nums1[mid];
+		}
+		else
+		{
+			//取两个数的平均值做中位数
+			rd = (nums1[mid] + nums1[mid + 1]) / 2;
+		}
 		return rd;
 	}
 };

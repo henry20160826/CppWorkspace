@@ -1,0 +1,11 @@
+19:53:50 **** Incremental Build of configuration Debug for project 23. Merge k Sorted Lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\23. Merge k Sorted Lists.o" "..\\src\\23. Merge k Sorted Lists.cpp" 
+..\src\23. Merge k Sorted Lists.cpp: In member function 'ListNode* Solution::mergeKLists(std::vector<ListNode*>&)':
+..\src\23. Merge k Sorted Lists.cpp:36:20: warning: variable 'ph' set but not used [-Wunused-but-set-variable]
+   ListNode *head, *ph;
+                    ^
+g++ -o "23. Merge k Sorted Lists.exe" "src\\23. Merge k Sorted Lists.o" 
+
+19:53:52 Build Finished (took 1s.546ms)
+

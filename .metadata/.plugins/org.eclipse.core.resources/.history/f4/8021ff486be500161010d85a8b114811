@@ -1,0 +1,74 @@
+//============================================================================
+// Name        : .cpp
+// Author      : dh
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+//Given a list, rotate the list to the right by k places, where k is non-negative.
+//
+//For example:
+//Given 1->2->3->4->5->NULL and k = 2,
+//return 4->5->1->2->3->NULL.
+
+#include <iostream>
+using namespace std;
+
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode(int x) : val(x), next(NULL) {}
+ * };
+ */
+struct ListNode
+{
+	int val;
+	ListNode *next;
+	ListNode(int x) :
+			val(x), next(NULL)
+	{
+	}
+};
+class Solution
+{
+public:
+	ListNode* rotateRight(ListNode* head, int k)
+	{
+		if (NULL == head || 0 == k)
+		{
+			return head;
+		}
+		ListNode *head2;
+		ListNode *rear1, *rear2;
+		int len = 1;
+		rear2 = head;
+		while (rear2->next != NULL)
+		{
+			rear2 = rear2->next;
+			++len;
+		}
+		int n = len - k;
+		if (0 >= n)
+		{
+			return head;
+		}
+		int i;
+		for (i = 1, rear1 = head; i < n; ++i, rear1 = rear1->next)
+		{
+
+		}
+		head2 = rear1->next;
+		rear2->next = head;
+		rear1->next = NULL;
+		return head2;
+	}
+};
+
+int main()
+{
+	cout << "Hello World" << endl; // prints Hello World
+	return 0;
+}

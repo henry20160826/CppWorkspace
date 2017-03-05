@@ -1,21 +1,13 @@
-15:29:37 **** Incremental Build of configuration Debug for project 3. Longest Substring Without Repeating Characters ****
+10:16:29 **** Incremental Build of configuration Debug for project algorithm-greed_algorithm ****
 Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\3. Longest Substring Without Repeating Characters.o" "..\\src\\3. Longest Substring Without Repeating Characters.cpp" 
-g++ -o "3. Longest Substring Without Repeating Characters.exe" "src\\3. Longest Substring Without Repeating Characters.o" 
-Info: Nothing to build for 3. Longest Substring Without Repeating Characters
-15:55:46 **** Incremental Build of configuration Debug for project 3. Longest Substring Without Repeating Characters ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\alg.o" "..\\src\\alg.cpp" 
+g++ -o algorithm-greed_algorithm.exe "src\\alg.o" 
+Info: Nothing to build for algorithm-greed_algorithm
+10:42:38 **** Incremental Build of configuration Debug for project algorithm-greed_algorithm ****
 Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\3. Longest Substring Without Repeating Characters.o" "..\\src\\3. Longest Substring Without Repeating Characters.cpp" 
-g++ -o "3. Longest Substring Without Repeating Characters.exe" "src\\3. Longest Substring Without Repeating Characters.o" 
-15:59:34 **** Incremental Build of configuration Debug for project 3. Longest Substring Without Repeating Characters ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\alg.o" "..\\src\\alg.cpp" 
+g++ -o algorithm-greed_algorithm.exe "src\\alg.o" 
+10:46:58 **** Incremental Build of configuration Debug for project algorithm-greed_algorithm ****
 Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\3. Longest Substring Without Repeating Characters.o" "..\\src\\3. Longest Substring Without Repeating Characters.cpp" 
-g++ -o "3. Longest Substring Without Repeating Characters.exe" "src\\3. Longest Substring Without Repeating Characters.o" 
-16:09:50 **** Incremental Build of configuration Debug for project 3. Longest Substring Without Repeating Characters ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\3. Longest Substring Without Repeating Characters.o" "..\\src\\3. Longest Substring Without Repeating Characters.cpp" 
-g++ -o "3. Longest Substring Without Repeating Characters.exe" "src\\3. Longest Substring Without Repeating Characters.o" 
-16:11:33 **** Incremental Build of configuration Debug for project 3. Longest Substring Without Repeating Characters ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\3. Longest Substring Without Repeating Characters.o" "..\\src\\3. Longest Substring Without Repeating Characters.cpp" 
-g++ -o "3. Longest Substring Without Repeating Characters.exe" "src\\3. Longest Substring Without Repeating Characters.o" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\alg.o" "..\\src\\alg.cpp" 
+g++ -o algorithm-greed_algorithm.exe "src\\alg.o" 

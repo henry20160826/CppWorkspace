@@ -1,0 +1,14 @@
+20:44:09 **** Incremental Build of configuration Debug for project 13. Roman to Integer ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\13. Roman to Integer.o" "..\\src\\13. Roman to Integer.cpp" 
+..\src\13. Roman to Integer.cpp: In member function 'int Solution::romanToInt(std::string)':
+..\src\13. Roman to Integer.cpp:24:7: warning: unused variable 'symbol' [-Wunused-variable]
+   int symbol = 1;
+       ^
+..\src\13. Roman to Integer.cpp:26:8: warning: unused variable 'last' [-Wunused-variable]
+   char last;
+        ^
+g++ -o "13. Roman to Integer.exe" "src\\13. Roman to Integer.o" 
+
+20:44:10 Build Finished (took 569ms)
+

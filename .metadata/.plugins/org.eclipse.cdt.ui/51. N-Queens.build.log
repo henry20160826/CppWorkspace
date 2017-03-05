@@ -1,0 +1,37 @@
+14:09:04 **** Rebuild of configuration Debug for project 51. N-Queens ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\51. N-Queens.o" "..\\src\\51. N-Queens.cpp" 
+..\src\51. N-Queens.cpp:37:22: error: '>>' should be '> >' within a nested template argument list
+  vector<vector<string>> solveNQueens(int n)
+                      ^
+..\src\51. N-Queens.cpp:55:35: error: '>>' should be '> >' within a nested template argument list
+  bool isPutin(vector<vector<string>> &rvv, vector<string> v, int n,int row
+                                   ^
+..\src\51. N-Queens.cpp:56:4: error: expected ',' or '...' before 'int'
+    int residue)
+    ^
+..\src\51. N-Queens.cpp: In member function 'std::vector<std::vector<std::basic_string<char> > > Solution::solveNQueens(int)':
+..\src\51. N-Queens.cpp:51:23: error: '>>' should be '> >' within a nested template argument list
+   vector<vector<string>> rvv;
+                       ^
+..\src\51. N-Queens.cpp:52:26: error: no matching function for call to 'Solution::isPutin(std::vector<std::vector<std::basic_string<char> > >&, std::vector<std::basic_string<char> >&, int&, int, int&)'
+   isPutin(rvv, v, n, 0, n);
+                          ^
+..\src\51. N-Queens.cpp:52:26: note: candidate is:
+..\src\51. N-Queens.cpp:55:7: note: bool Solution::isPutin(std::vector<std::vector<std::basic_string<char> > >&, std::vector<std::basic_string<char> >, int, int)
+  bool isPutin(vector<vector<string>> &rvv, vector<string> v, int n,int row
+       ^
+..\src\51. N-Queens.cpp:55:7: note:   candidate expects 4 arguments, 5 provided
+..\src\51. N-Queens.cpp: In member function 'bool Solution::isPutin(std::vector<std::vector<std::basic_string<char> > >&, std::vector<std::basic_string<char> >, int, int)':
+..\src\51. N-Queens.cpp:58:7: error: 'residue' was not declared in this scope
+   if (residue == 0)
+       ^
+..\src\51. N-Queens.cpp:74:28: error: 'residue' was not declared in this scope
+       isPutin(rvv, v, n, i,residue - 1);
+                            ^
+..\src\51. N-Queens.cpp:77:29: error: 'residue' was not declared in this scope
+      isPutin(rvv, v, n,row, residue);
+                             ^
+
+14:09:06 Build Finished (took 2s.16ms)
+

@@ -1,3 +1,5 @@
+AbstractTextEditor.Color.Background=200,255,200
 eclipse.preferences.version=1
+hoverReplaceMode=2
 lineNumberRuler=true
 overviewRuler_migration=migrated_3.1

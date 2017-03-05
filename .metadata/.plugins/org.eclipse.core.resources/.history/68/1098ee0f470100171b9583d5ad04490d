@@ -1,0 +1,32 @@
+//============================================================================
+// Name        : alg.cpp
+// Author      : dh
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+class interval
+{
+public:
+	interval(int s, int e) :
+			startTime(s), endTime(e)
+	{
+	}
+	interval()
+	{
+		startTime = 0;
+		endTime = 0;
+	}
+
+	int startTime;
+	int endTime;
+private:
+};
+int main()
+{
+	interval a[8];
+	return 0;
+}

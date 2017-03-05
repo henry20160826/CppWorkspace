@@ -31,7 +31,7 @@ public:
 		bool flag = false;
 		for (int i = 0; i < len; ++i)
 		{
-			for (int j = i + 1; j < len; ++j)
+			for (int j = len - 1; j > i; --j)
 			{
 				if (nums[i] + nums[j] == target)
 				{

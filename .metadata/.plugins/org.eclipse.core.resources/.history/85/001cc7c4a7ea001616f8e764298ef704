@@ -1,0 +1,48 @@
+//============================================================================
+// Name        : .cpp
+// Author      : dh
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+// Given two binary strings, return their sum (also a binary string).
+//
+//For example,
+//a = "11"
+//b = "1"
+//Return "100".
+
+#include <iostream>
+using namespace std;
+
+class Solution
+{
+public:
+	string addBinary(string a, string b)
+	{
+		int alen = a.length();
+		int blen = b.length();
+		int i;
+		string rs;
+		if (alen > blen)
+		{
+			rs(alen, 0);
+		}
+		else
+		{
+			rs(blen, 0);
+		}
+		for (i = 1; alen - i >= 0 && blen - i >= 0; ++i)
+		{
+
+		}
+		return rs;
+	}
+};
+
+int main()
+{
+	cout << "Hello World" << endl; // prints Hello World
+	return 0;
+}

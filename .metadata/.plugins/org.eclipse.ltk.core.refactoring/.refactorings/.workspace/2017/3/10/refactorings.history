@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;alg&apos; to &apos;algorithm-greed_algorithm&apos;" description="Rename resource &apos;alg&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/alg" name="algorithm-greed_algorithm" stamp="1488678052457" updateReferences="true"/>&#x0A;<refactoring comment="Delete resource &apos;algorithm-greed_algorithm/Debug&apos;" deleteContents="false" description="Delete resource &apos;algorithm-greed_algorithm/Debug&apos;" element1="/algorithm-greed_algorithm/Debug" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1488680111205"/>
+</session>
